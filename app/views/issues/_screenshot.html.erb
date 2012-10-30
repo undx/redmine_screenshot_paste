@@ -1,0 +1,16 @@
+<p><label><%= l(:label_screenshot) %></label>
+	<small><a href="#" onclick="$('#imageuploadapplet').show(); $('#uploaded_screenshot_fields').show(); document.imageuploadapplet.getImageFromClipboad(); return false;">
+	<%= l(:label_drag_or_paste_from_clipboard) %></a></small><br />
+  <object name="imageuploadapplet" id="imageuploadapplet" type="application/x-java-applet" width="400" height="200" style="display: none;">
+    <param name="codebase" value="/plugin_assets/redmine_screenshot_paste/" />
+    <param name="archive"  value="simageuploadapplet.jar" />
+    <param name="code"     value="imageuploadapplet.Main" />
+    </object>
+		<br />
+	<span id="uploaded_screenshot_fields" style="display:none;">
+		<small><%= l(:label_name_description) %>:</small><br />
+		<input type="text" name="attachments[screenshot][name]" value="screenshot" />
+        <input type="text" name="attachments[screenshot][description]" size="60" />
+	</span>
+</p>
+<input type="hidden" name="attachments[screenshot][content]" id="image" />

@@ -1,0 +1,4 @@
+en:
+  label_drag_or_paste_from_clipboard: "Drag or paste from clipboard(Full screen: PrintScreen, Active Window: Alt+PrintScreen)"
+  label_screenshot: Screenshot
+  label_name_description: "Name(.png extension attached) / Description"
