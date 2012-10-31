@@ -1,10 +1,10 @@
 <% if Redmine::VERSION::MAJOR == 2 %>
   <p><label><%= l(:label_screenshot) %></label>
-  <%- if Redmine::VERSION::MINOR == 0 %>
+  <% if Redmine::VERSION::MINOR == 0 %>
         <small><a href="#" onclick="Element.show('imageuploadapplet'); Element.show('uploaded_screenshot_fields'); document.imageuploadapplet.getImageFromClipboad(); return false;">
     <% else %>
         <small><a href="#" onclick="$('#imageuploadapplet').show(); $('#uploaded_screenshot_fields').show(); document.imageuploadapplet.getImageFromClipboad(); return false;">
-    <% end  %>
+    <% end %>
   <%= l(:label_drag_or_paste_from_clipboard) %></a></small><br />
   <object name="imageuploadapplet" id="imageuploadapplet" type="application/x-java-applet" width="400" height="200" style="display: none;">
     <param name="codebase" value="/plugin_assets/redmine_screenshot_paste/" />
