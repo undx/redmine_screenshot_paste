@@ -1,0 +1,4 @@
+cs:
+  label_drag_or_paste_from_clipboard: "Vlož obrázek ze schránky (Snímek obrazovky: PrntScrn, Aktivní okno: Alt+PrntScr)"
+  label_screenshot: obrazovka
+  label_name_description: "Jméno (koncovka .png se přidá) / Popis"
