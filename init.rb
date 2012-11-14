@@ -15,5 +15,5 @@ ActionDispatch::Callbacks.to_prepare do
 end
 
 class RedmineScreenshotPasteHook < Redmine::Hook::ViewListener
-  render_on :view_issues_form_details_bottom, :partial => 'screenshot'
+  render_on :view_issues_form_details_bottom, :partial => 'issues/screenshot'
 end
