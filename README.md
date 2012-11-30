@@ -13,7 +13,7 @@ Allow pasting a screenshot from the clipboard on the issue form.
 
 Follow the [standard procedure](http://www.redmine.org/projects/redmine/wiki/Plugins) (no migration required).
 
-**Note**: Please, check that the plugin's directory is named `redmine_screenshot_paste`. Otherwise, rename it.
+**Note**: Please, check that the plugin's directory is named **`redmine_screenshot_paste`**. Otherwise, rename it.
 
 ## Limitations
 
