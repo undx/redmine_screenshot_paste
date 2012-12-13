@@ -11,7 +11,9 @@ end
 
 ActionDispatch::Callbacks.to_prepare do
   require_dependency 'redmine_screenshot_paste'
-  IssuesController.send(:include, RedmineScreenshotPaste::Patches::IssuesControllerPatch)
+  IssuesController.send    :include, RedmineScreenshotPaste::Patches::ControllerPatch
+  Attachment.send          :include, RedmineScreenshotPaste::Patches::AttachmentPatch
+  DocumentsController.send :include, RedmineScreenshotPaste::Patches::ControllerPatch
 end
 
 class RedmineScreenshotPasteHook < Redmine::Hook::ViewListener
