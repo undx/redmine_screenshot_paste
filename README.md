@@ -23,3 +23,8 @@ Follow the [standard procedure](http://www.redmine.org/projects/redmine/wiki/Plu
 
 For Wiki and documents, you have to be on a form. Using the `New file` link doesn't
 handle screenshots.
+
+
+## Bitnami
+
+For those who use **Bitnami's Redmine stack**, please have a look at issues before posting a new issue.
