@@ -7,7 +7,7 @@
       <% end %>
       <%= l(:label_drag_or_paste_from_clipboard) %></a></small><br />
       <object name="imageuploadapplet" id="imageuploadapplet" type="application/x-java-applet" width="400" height="200" style="display: none;">
-        <param name="codebase" value="/plugin_assets/redmine_screenshot_paste/" />
+        <param name="codebase" value="<%= AssetsHelper.plugin_asset_link('', :plugin => 'redmine_screenshot_paste') %>" />
         <param name="archive"  value="simageuploadapplet.jar" />
         <param name="code"     value="imageuploadapplet.Main" />
       </object>

@@ -1,4 +1,5 @@
 require 'redmine'
+require 'assets_helper'
 
 Redmine::Plugin.register :redmine_screenshot_paste do
   name 'Screenshot Paste'
