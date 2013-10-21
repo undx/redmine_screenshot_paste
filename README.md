@@ -3,7 +3,7 @@
 This a rework of the Jean-Philippe Lang's [Redmine Screenshot paste](http://www.redmine.org/projects/redmine/wiki/PluginScreenshotPaste)
 plugin.
 
-This plugin is compatible and has been tested with Redmine 2.0.x and 2.1.x.
+This plugin is compatible and has been tested with Redmine 2.x.
 
 ## Features
 
@@ -28,3 +28,7 @@ handle screenshots.
 ## Bitnami
 
 For those who use **Bitnami's Redmine stack**, please have a look at issues before posting a new issue.
+
+## Contributors
+
+Thanks to you !
