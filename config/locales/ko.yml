@@ -1,0 +1,4 @@
+ko:
+  label_drag_or_paste_from_clipboard: "클립보드로부터 드래그 또는 붙여넣기(전체화면: PrintScreen, 현재화면: Alt+PrintScreen)"
+  label_screenshot: 스크린 샷
+  label_name_description: "이름(.png 확장자가 추가됩니다) / 설명"
